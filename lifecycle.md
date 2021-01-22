@@ -3,10 +3,12 @@
 Use https://reactjs.org/docs/react-component.html#the-component-lifecycle and http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/ to answer these on your own then compare answers as a group
 
 1.  Each component has several `lifecycle methods` that you can override to do what?
-
-2.  What are the 4 categories of lifecycle methods? (these are the headings from the first link)
+  make our component behave the way we want
+2.  What are the 3 categories of lifecycle methods? (these are the headings from the first link)
+  Mounting, Updating, Unmounting
 
 3.  What are the names of the 5 commonly used lifecycle methods? (these are in bold in the first link)
+  constructor, render, componentDidMount, componentDidUpdate, componentWillUnmount
 
 ### Understand
 

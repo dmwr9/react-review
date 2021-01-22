@@ -3,11 +3,13 @@
 Answer these on your own, then compare answers as a group
 
 1.  What is state?
-
+  an object where we can store data within our component. This data is kept in memory and doesn't persist.
 2.  Where do you set initial state?
-
+  in the constructor of the component.
 3.  What method do you use to update state?
-
+  ```JS
+  this.setState()
+  ```
 ### Understand
 
 Discuss this question in pairs if you have a 4-person group

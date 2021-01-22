@@ -3,14 +3,33 @@
 Answer these on your own, then compare answers as a group
 
 1.  What are props?
+  - Props is an object that allows us to share data from a parent component to its children
 
 2.  How do you pass props from a parent to a child?
+  ```JSX
+    <ChildComponent propName={propValue}/>
+  ```
 
 3.  How do you access props from a class-based child component?
 
+```JSX
+  this.props.propName
+```
+
 4.  How do you access props from a functional component?
+```JS
+function ChildComponent(props){
+  return <div> 
+    {props.propName}
+  </div>
+}
+```
 
 5.  How do you bind a function to a parent component so that it can be passed to a child?
+```JS
+  this.funcName = this.funcName.bind(this)
+```
+ ^^^ in the constructor
 
 ### Understand
 
